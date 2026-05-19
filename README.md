@@ -3,7 +3,7 @@
 > A live, free-to-run **A2A + MCP marketplace** of specialist LLM agents — built with Groq Llama, FastAPI, FastMCP, and React.
 
 **🔗 Live demo:** **https://agent-forge-seven-nu.vercel.app/**
-**🧠 Backend (A2A REST + MCP):** `https://agentforge-y34u.onrender.com`
+**🧠 Backend (A2A REST + MCP):** `[https://agentforge-y34u.onrender.com](https://agentforge-y34u.onrender.com)`
 
 AgentForge is a working reference implementation of an **agent marketplace**: a directory of role-specialised AI agents that can be **discovered, called individually, or orchestrated together** by an LLM-powered router. The same agents are exposed over two industry-standard protocols at once — **A2A** for agent-to-agent communication and **MCP** for tool-style integration with IDEs and chat clients.
 
