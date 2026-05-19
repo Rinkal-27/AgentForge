@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: agentforge
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m agentforge.server
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: HOST
+        value: 0.0.0.0
+      - key: MODEL_LARGE
+        value: llama-3.3-70b-versatile
+      - key: MODEL_SMALL
+        value: llama-3.1-8b-instant
+      - key: GROQ_API_KEY
+        sync: false
+    healthCheckPath: /health
